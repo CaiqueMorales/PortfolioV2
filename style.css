@@ -52,8 +52,27 @@
 
 }
 
+/* Tipografia para dispositivos muito grandes */
 
-/* Tipografia para despositivos pequenos */
+@media screen and (min-width: 2000px) {
+
+    :root {
+
+        --h1-font-size: 2.5rem;
+        --h2-font-size: 2rem;
+        --h3-font-size: 1.75rem;
+    
+        --smaller-font-size: 1rem;
+        --small-font-size: 1.25rem;
+        --normal-font-size: 1.75rem;
+        --large-font-size: 3rem;
+        --larger-font-size: 3.5rem;
+
+    }
+
+}
+
+/* Tipografia para dispositivos pequenos */
 @media screen and (max-width: 768px) {
 
     :root {
@@ -546,9 +565,8 @@ img {
     display: inline-block;
     background-color: var(--primary-color);
     color: var(--button-color);
-    padding: 15px 20px;
+    padding: 1rem 1.5rem;
     margin: .5rem;
-    
 }
 
 .skills__text{
@@ -583,13 +601,13 @@ img {
     .skills__techs-container{
         gap: 0;
         flex-direction: row;
+        text-align: start;
         width: 100%;
     }
     .skills__text{
         grid-row: 1 / 2;
         width: 100%;
     }
-
 }
 
 /* Projetos */
@@ -716,9 +734,6 @@ img {
 }
 
 @media screen and (orientation: landscape) {
-    #contact{
-        height: 90vh;
-    }
     .contact__content{
         padding: 1rem 0;
     }
