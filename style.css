@@ -481,31 +481,6 @@ img {
     }
 }
 
-@media screen and (orientation: landscape) {
-    #about{
-        max-height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10rem;
-    }
-    .about__title{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 20%;
-    }
-    .about__img{
-        display: none;
-    }
-    .about__content{
-        height: 20vh;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-    }
-}
-
 @media screen and (max-width: 350px){
     .about__badges-container{
         padding-bottom: 2rem;
