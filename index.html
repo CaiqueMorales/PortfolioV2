@@ -27,11 +27,11 @@
         <a class="nav__logo" href="#top">Caique</a>
 
         <ul class="nav__menu">
-            <li class="nav__item nav__item1"><a>Home</a></li>
-            <li class="nav__item nav__item2"><a>Sobre</a></li>
-            <li class="nav__item nav__item3"><a>Habilidades</a></li>
-            <li class="nav__item nav__item4"><a>Projetos</a></li>
-            <li class="nav__item nav__item5"><a>Contato</a></li>
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+            <li class="nav__item"><a href="#projects" class="nav__link">Projetos</a></li>
+            <li class="nav__item"><a href="#footer" class="nav__link">Contato</a></li>
             <li class="nav__button__container"><i class="uil uil-moon nav__button"></i></li>
         </ul>
 
@@ -48,56 +48,58 @@
     <section id="home">
 
         <div class="redes__socias">
+
             <a href="https://github.com/CaiqueMorales" target="_blank"><i class="uil uil-github-alt home__icon"></i></a>
             <a href="https://wa.me/5511961930889" target="_blank"><i class="uil uil-whatsapp home__icon"></i></a>
-            <a href="https://www.linkedin.com/in/caique-morales-silva-07633a210/" target="_blank"><i
-                    class="uil uil-linkedin-alt home__icon"></i></a>
-            <a href="https://www.instagram.com/caique_brad/" target="_blank"><i
-                    class="uil uil-instagram home__icon"></i></a>
+            <a href="https://www.linkedin.com/in/caique-morales-silva-07633a210/" target="_blank"><i class="uil uil-linkedin-alt home__icon"></i></a>
+            <a href="https://www.instagram.com/caique_brad/" target="_blank"><i class="uil uil-instagram home__icon"></i></a>
+
         </div>
 
         <div class="home__main">
+
             <h1>Olá, eu sou Caique</h1>
             <h3>Desenvolvedor Front-End</h3>
-            <p>Experiência em desenvolver sites de qualidades e interfaces. <br> Apaixonado pelo Front-End e o pelo o
-                que ele pode oferecer para os usuários.</p>
+            <p>Experiência em desenvolver sites de qualidades e interfaces. <br> Apaixonado pelo Front-End e o pelo o que ele pode oferecer para os usuários.</p>
+            
         </div>
+
     </section>
 
     <section id="about">
 
-        <h1 class="about__title">Sobre</h1>
+        <div class="about-container container">
 
-        <div class="about__img"><img src="./images/dev.jpg"></div>
-
-        <div class="about__content">
-
-            <p class="about__description">
-                Desenvolvedor WEB com anos de experiência e um grande conhecimento, trabalhando com as melhores
-                tecnologias do mercado, entregando sempre conteúdo de qualidade.
-            </p>
-            <div class="about__badges-container">
-
-                <div class="about__badges">
-                    <span>+02</span>
-                    <span>Anos</span>
+            <h1 class="about-title text-center section-title">Sobre</h1>
+            
+            <div class="about-semicontainer split">
+                <div class="about__content">
+                    <p class="about__description">
+                        Desenvolvedor WEB com anos de experiência e um grande conhecimento, trabalhando com as melhores
+                        tecnologias do mercado, entregando sempre conteúdo de qualidade.
+                    </p>
+                    <div class="about-badges-container">
+                        <div class="about-badges">
+                            <p>+03</p>
+                            <p>Anos</p>
+                        </div>
+                        <div class="about-badges">
+                            <p>+05</p>
+                            <p>Projetos</p>
+                        </div>
+                        <div class="about-badges">
+                            <p>+05</p>
+                            <p>Tecnologias</p>
+                        </div>
+                    </div>
+                    <a download="" href="./assets/Currículo - Caique Morales Silva.pdf" class="downloadcv btn">
+                        Download CV <i class="uil uil-file-download-alt cv__icon"></i>
+                    </a>
                 </div>
-
-                <div class="about__badges">
-                    <span>+05</span>
-                    <span>Projetos</span>
+                <div class="about-img-container">
+                    <img class="about-img" src="./images/dev.jpg">
                 </div>
-
-                <div class="about__badges">
-                    <span>+05</span>
-                    <span>Tecnologias</span>
-                </div>
-
             </div>
-            <a download="" href="./assets/Currículo - Caique Morales Silva.pdf" class="downloadcv">
-                Download CV <i class="uil uil-file-download-alt cv__icon"></i>
-            </a>
-
 
         </div>
 
@@ -105,41 +107,52 @@
 
     <section id="skills">
 
-        <h1 class="skills__title flex">Habilidades</h1>
+        <div class="skills-container container">
 
-        <div class="skills__content">
+            <h1 class="skills__title section-title">Habilidades</h1>
+            <div class="skills-semicontainer split">
 
-            <article class="skills__techs-container">
+                <div class="skills__techs-container">
 
-                <div class="skills__techs-semicontainer">
+                    <div class="skills__techs-semicontainer">
 
-                    <div class="skills__techs-item">
-                        HTML
-                    </div>
-                    <div class="skills__techs-item">
-                        CSS
-                    </div>
-                    <div class="skills__techs-item">
-                        JAVASCRIPT
-                    </div>
-                    <div class="skills__techs-item">
-                        REACT
-                    </div>
-                    <div class="skills__techs-item">
-                        NODE
-                    </div>
-                    <div class="skills__techs-item">
-                        GIT
+                        <div class="skills__techs-item">
+                            HTML
+                        </div>
+
+                        <div class="skills__techs-item">
+                            CSS
+                        </div>
+
+                        <div class="skills__techs-item">
+                            JAVASCRIPT
+                        </div>
+
+                        <div class="skills__techs-item">
+                            REACT
+                        </div>
+
+                        <div class="skills__techs-item">
+                            NODE
+                        </div>
+
+                        <div class="skills__techs-item">
+                            GIT
+                        </div>
+
                     </div>
 
                 </div>
+                <div class="skills__text">
 
-            </article>
-            <article class="skills__text">
-                <h3 class="skills__subtitle">Tecnologias</h3>
-                <p class="skills__description">Desenvolvendo a mais de dois anos, usando HTML, CSS e JAVASCRIPT para
-                    desenvolver interfaces de alta qualidades.</p>
-            </article>
+                    <p class="skills__description">Desenvolvendo a mais de três anos, usando HTML, CSS e JAVASCRIPT para desenvolver interfaces de alta qualidades.</p>
+                    <p class="skills__description">Sempre me dedicando pra conseguir resultados cada vez melhores e com uma grande sede por conhecimento.</p>
+                    <a href="#projects" class="skills-cta btn">Ver projetos</a>    
+
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -147,108 +160,119 @@
 
     <section id="projects">
 
-        <h1 class="projects__title flex">Projetos</h1>
+        <h1 class="projects-title section-title">Projetos</h1>
 
         <div class="projects-container">
 
-            <div class="projects__item flex">
-                <img class="projects__img" src="./images/portfolio.png">
+            <div class="projects__item">
+                <img class="projects__img" src="images/calculadora.png">
                 <div class="projects__descriptions">
-
-                    <h4 class="projects__description-title">Portfolio</h4>
-                    <p class="projects__description-text">Portifólio pessoal para desmontrar minhas habilidades e
-                        conhecimentos.</p>
-
+                    
+                    <h4 class="projects__description-title">Calculadora</h4>
+                    <p class="projects__description-text">Calculadora com tema escuro feita usando React Hooks.</p>
+                    
                 </div>
-
-                <a href="https://caiquemorales.netlify.app/" target="_blank" class="projects__button flex">Ver</a>
-
+                
+                <a href="https://dark-theme-calculator.netlify.app/" target="_blank" class="projects-button ">Ver</a>
             </div>
-            <div class="projects__item flex">
-                <img class="projects__img" src="./images/jujutsunews.png">
-                <div class="projects__descriptions">
-
-                    <h4 class="projects__description-title">Jujutsu Kaisen News</h4>
-                    <p class="projects__description-text">Site de noticias sobre o anime "Jujutsu Kaisen".</p>
-
-                </div>
-
-                <a href="https://kagaminoshototsu.netlify.app/" target="_blank" class="projects__button flex">Ver</a>
-            </div>
-            <div class="projects__item flex">
+            <div class="projects__item">
                 <img class="projects__img" src="images/cspinturas.png">
                 <div class="projects__descriptions">
-
+                    
                     <h4 class="projects__description-title">CS Pinturas</h4>
                     <p class="projects__description-text">Site de uma empresa de pinturas e reformas.</p>
-
+                    
                 </div>
-
-                <a href="https://cspinturas.netlify.app/" target="_blank" class="projects__button flex">Ver</a>
+                
+                <a href="https://cspinturas.netlify.app/" target="_blank" class="projects-button ">Ver</a>
             </div>
-            <div class="projects__item flex">
+            <div class="projects__item">
                 <img class="projects__img" src="./images/portfoliov2.png">
                 <div class="projects__descriptions">
-
-                    <h4 class="projects__description-title">Portfolio V2</h4>
-                    <p class="projects__description-text">Uma versão mais atualizada do meu portfolio pessoal.</p>
-
+                    
+                    <h4 class="projects__description-title">Portfólio</h4>
+                    <p class="projects__description-text">Portfólio pessoal pra mostrar um pouco sobre meus conheimentos</p>
+                    
                 </div>
-
-                <a href="https://caiquemoralesv2.netlify.app/" target="_blank" class="projects__button flex">Ver</a>
+                
+                <a href="https://caiquemorales.netlify.app/" target="_blank" class="projects-button ">Ver</a>
             </div>
-            <div class="projects__item flex">
+            <div class="projects__item">
                 <img class="projects__img" src="./images/light-films.png">
                 <div class="projects__descriptions">
-
+                    
                     <h4 class="projects__description-title">Light Films</h4>
                     <p class="projects__description-text">Site de uma empresa real de películas de vidro.</p>
-
+                    
                 </div>
-
-                <a href="https://light-films.netlify.app/" target="_blank" class="projects__button flex">Ver</a>
+                
+                <a href="https://light-films.netlify.app/" target="_blank" class="projects-button ">Ver</a>
             </div>
-            <div class="projects__item flex">
+            <div class="projects__item">
                 <img class="projects__img" src="./images/fylo.png">
                 <div class="projects__descriptions">
-
+                    
                     <h4 class="projects__description-title">Fylo</h4>
                     <p class="projects__description-text">Landing page de uma empresa fictícia de armazenamento de arquivos.</p>
+                    
+                </div>
+                
+                <a href="https://fylo-challenge.netlify.app/" target="_blank" class="projects-button ">Ver</a>
+            </div>
+            <div class="projects__item">
+                <img class="projects__img" src="./images/manage.png">
+                <div class="projects__descriptions">
+        
+                    <h4 class="projects__description-title">Manage</h4>
+                    <p class="projects__description-text">Landing Page de uma empresa fictícia de organização de equipe.</p>
+        
+                </div>
+        
+                <a href="https://manage-challenge.netlify.app/" target="_blank" class="projects-button ">Ver</a>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    <footer id="footer">
+
+        <div class="footer-container container">
+            
+            <div class="footer-minicontainer">
+                
+                <div class="footer-content">
+
+                    <h4 class="footer-title">Caique</h4>
+                    <p class="footer-role footer-name">Desenvolvedor Front-End</p>
+                </div>
+
+            </div>
+
+            <div class="footer-minicontainer">
+                
+                <div class="footer-content">
+
+                    <p class="footer-role">aecaique@gmail.com</p>
+                    <p class="footer-role">(11) 96193-0889</p>
+                </div>
+
+            </div>
+
+            <div class="footer-minicontainer">
+                
+                <div class="footer-content">
+
+                    <a href="https://www.instagram.com/caique_brad/" target="_blank" class="footer-role footer-link">Instagram</a><br>
+                    <a href="https://wa.me/5511961930889" target="_blank" class="footer-role footer-link">WhatsApp</a><br>
+                    <a href="https://www.facebook.com/profile.php?id=100008434423912" target="_blank" class="footer-role footer-link">Facebook</a><br>
 
                 </div>
 
-                <a href="https://fylo-challenge.netlify.app/" target="_blank" class="projects__button flex">Ver</a>
             </div>
 
         </div>
-
-    </section>
-
-    <section id="contact">
-        <div class="contact__container">
-
-            <div class="contact__semicontainer">
-                <div class="contact__content">
-                    <h4 class="contact__title">Caique</h4>
-                    <p class="contact__role contact__name">Desenvolvedor Front-End</p>
-                </div>
-            </div>
-            <div class="contact__semicontainer">
-                <div class="contact__content">
-                    <p class="contact__role">aecaique@gmail.com</p>
-                    <p class="contact__role">(11) 96193-0889</p>
-                </div>
-            </div>
-            <div class="contact__semicontainer">
-                <div class="contact__content">
-                    <a href="https://www.instagram.com/caique_brad/" target="_blank" class="contact__role contact__link">Instagram</a>
-                    <a href="https://wa.me/5511961930889" target="_blank" class="contact__role contact__link">WhatsApp</a>
-                    <a href="https://www.facebook.com/profile.php?id=100008434423912" target="_blank" class="contact__role contact__link">Facebook</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    </footer>
 
 
 
