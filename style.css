@@ -560,7 +560,7 @@ section{
     color: var(--button-color);
 }
 
-.projects__button:hover{
+.projects-button:hover{
     background-color: var(--primary-alt-color);
 }
 
